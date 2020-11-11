@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" method="upgrade" group="j2store">
+    <name>Vandar Payment Gateway</name>
+    <description>PLG_J2STORE_VANDAR_DESC</description>
+    <version>1.0</version>
+    <author>Publisher: Vandar</author>
+    <authorUrl>https://vandar.io</authorUrl>
+    <authorEmail>info@vandar.io</authorEmail>
+    <creationDate>October 2020</creationDate>
+    <copyright>Copyright (C) 2020 Vandar</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2 or later</license>
+
+    <files>
+        <filename plugin="payment_vandar">payment_vandar.php</filename>
+        <filename>index.html</filename>
+        <folder>payment_vandar</folder>
+    </files>
+
+    <languages folder="language/fa-IR">
+        <language tag="fa-IR">fa-IR.plg_system_payment_vandar.ini</language>
+        <language tag="fa-IR">fa-IR.plg_system_payment_vandar.sys.ini</language>
+    </languages>
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.plg_system_payment_vandar.ini</language>
+        <language tag="en-GB">en-GB.plg_system_payment_vandar.sys.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="api_key" type="text" size="60" label="API KEY" description="PLG_J2STORE_VANDAR_API_KEY_DESC"/>
+                <field name="currency" type="radio" default="rial" label="PLG_J2STORE_VANDAR_CURRENCY_LABEL" class="btn-group" description="PLG_J2STORE_VANDAR_CURRENCY_DESC">
+                    <option value="rial">PLG_J2STORE_VANDAR_CURRENCY_RIAL</option>
+                    <option value="toman">PLG_J2STORE_VANDAR_CURRENCY_TOMAN</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+
+    <updateservers>
+        <server type="extension" priority="1" name="System - Vandar for J2Store">https://static.vandar.io/plugins/joomla/j2store-vandar-udpate.xml</server>
+    </updateservers>
+</extension>
