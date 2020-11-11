@@ -1,0 +1,22 @@
+<updates>
+    <update>
+        <name>J2Store Vandar Payment Gateway Plugin 1.0</name>
+        <description/>
+        <element>payment_vandar</element>
+        <type>plugin</type>
+        <folder>system</folder>
+        <version>1.0</version>
+        <infourl title="J2Store Vandar Payment Gateway Plugin 1.0">https://vandar.io/</infourl>
+        <downloads>
+            <downloadurl type="full" format="">https://github.com/vandarpay/j2store/archive/master.zip</downloadurl>
+        </downloads>
+        <tags>
+        <tag>stable</tag>
+        </tags>
+        <maintainer>Vandar!</maintainer>
+        <maintainerurl>https://vandar.io/</maintainerurl>
+        <section>Updates</section>
+        <targetplatform name="joomla" version=".*"/>
+        <client>site</client>
+    </update>
+</updates>
