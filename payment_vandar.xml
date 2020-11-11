@@ -38,6 +38,6 @@
     </config>
 
     <updateservers>
-        <server type="extension" priority="1" name="System - Vandar for J2Store">https://static.vandar.io/plugins/joomla/j2store-vandar-udpate.xml</server>
+        <server type="extension" priority="1" name="System - Vandar for J2Store">https://github.com/vandarpay/j2store/blob/master/j2store-vandar-update.xml</server>
     </updateservers>
 </extension>
