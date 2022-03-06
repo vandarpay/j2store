@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" method="upgrade" group="j2store">
     <name>Vandar Payment Gateway</name>
-    <description>PLG_J2STORE_VANDAR_DESC</description>
+    <description>درگاه پرداخت امن وندار</description>
     <version>1.0</version>
     <author>Publisher: Vandar</author>
     <authorUrl>https://vandar.io</authorUrl>
@@ -28,10 +28,10 @@
     <config>
         <fields name="params">
             <fieldset name="basic">
-                <field name="api_key" type="text" size="60" label="API KEY" description="PLG_J2STORE_VANDAR_API_KEY_DESC"/>
-                <field name="currency" type="radio" default="rial" label="PLG_J2STORE_VANDAR_CURRENCY_LABEL" class="btn-group" description="PLG_J2STORE_VANDAR_CURRENCY_DESC">
-                    <option value="rial">PLG_J2STORE_VANDAR_CURRENCY_RIAL</option>
-                    <option value="toman">PLG_J2STORE_VANDAR_CURRENCY_TOMAN</option>
+                <field name="api_key" type="text" size="60" label="API KEY" description="کلید API"/>
+                <field name="currency" type="radio" default="rial" label="واحد پول" class="btn-group" description="واحد پولی">
+                    <option value="rial">ریال</option>
+                    <option value="toman">تومان</option>
                 </field>
             </fieldset>
         </fields>

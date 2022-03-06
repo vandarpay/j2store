@@ -12,5 +12,5 @@
 
 defined('_JEXEC') or die('Restricted access'); ?>
 <img src="/plugins/j2store/payment_vandar/payment_vandar/logo.svg" style="display: inline-block;vertical-align: middle;width: 50px;">
-<?php echo JText::_("PLG_J2STORE_VANDAR_OPTION_NAME"); ?>
+<?php echo JText::_("Vandar"); ?>
 
